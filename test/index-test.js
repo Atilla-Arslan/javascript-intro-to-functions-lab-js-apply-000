@@ -1,5 +1,5 @@
 
-describe('shout(string)', function shout(string) {
+describe('shout(string)', function shout(string) {return string.toUpperCase()
   }, function() {
     expect(shout('hello')).toEqual('HELLO')
   })
