@@ -25,6 +25,11 @@ describe('logShout(string)', function() {
   })
 })
 
+function sayHiToGrandma(string) {
+  if (string.toLowerCase() === string) {
+    return "I can\'t hear you!";
+  } 
+
 describe('logWhisper(string)', function() {
   it('calls console.log() its one argument in all lowercase', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
