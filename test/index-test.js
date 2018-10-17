@@ -1,6 +1,6 @@
 
-describe('shout(string)', function() {
-  , function() {
+describe('shout(string)', function shout(string) {
+  }, function() {
     expect(shout('hello')).toEqual('HELLO')
   })
 })
